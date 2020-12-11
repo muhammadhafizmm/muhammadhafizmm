@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("./IMG_4794\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 30px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.link a:hover{
+    color: chartreuse;
+}
+
+.section1{
+    width: 500px;
+}
+
+#menu{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 120%;
+}
+
+#menu:hover{
+    background-color: brown;
+    top: 200%;
+}
